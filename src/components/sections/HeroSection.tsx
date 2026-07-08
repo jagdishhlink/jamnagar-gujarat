@@ -7,26 +7,7 @@ import { useEffect, useRef, useState, useCallback } from "react";
 import { getReliableStockImages } from "@/lib/stock-images";
 
 export function HeroSection() {
-  const heroVariant = (siteConfig as any).heroVariant || "minimal-centered";
-  const layout = siteConfig.layout;
-  const hasImages = businessData.images && businessData.images.length > 0;
-
-  // If business has images, always use carousel hero (priority)
-  if (hasImages) return <HeroCarousel />;
-
-  if (heroVariant === "split-screen" || heroVariant === "left-aligned-content" || heroVariant === "floating-cards") return <HeroSplit />;
-  if (heroVariant === "large-typography-only" || heroVariant === "centered-typography") return <HeroTypography />;
-  if (heroVariant === "animated-statistics" || heroVariant === "before-after-showcase") return <HeroBold />;
-  if (heroVariant === "diagonal-layout" || heroVariant === "masonry-layout") return <HeroDiagonal />;
-  if (heroVariant === "carousel-hero" || heroVariant === "image-collage") return <HeroParticles />;
-  if (heroVariant === "fullscreen-image") return <HeroCinematic />;
-
-  if (["split", "bento-grid", "asymmetrical", "editorial"].includes(layout)) return <HeroSplit />;
-  if (["minimal", "swiss-typography", "apple-inspired"].includes(layout)) return <HeroTypography />;
-  if (["brutalist", "high-contrast", "retro"].includes(layout)) return <HeroBold />;
-  if (["dark-premium", "futuristic", "glassmorphism"].includes(layout)) return <HeroCinematic />;
-
-  // No images: use stock images carousel
+  // Always use carousel hero — shows real images or stock category images
   return <HeroCarousel />;
 }
 

@@ -6,7 +6,7 @@ export const businessData = {
   phone: "",
   email: "",
   website: "",
-  mapUrl: "https://www.google.com/maps/place/Sumant+Brass+Industries/@22.4135728,70.0564298,56a,75y,159.53h,90t/data=!3m7!1e1!3m5!1sJ0Rlm68EpTEketLhtU4CVg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DJ0Rlm68EpTEketLhtU4CVg%26yaw%3D159.53156!7i16384!8i8192!4m6!3m5!1s0x39576b1d8b19d217:0x2f68582554703bcb!8m2!3d22.4134957!4d70.0564573!16s%2Fg%2F11sfb7xxqr?entry=ttu&g_ep=EgoyMDI2MDcwNS4wIKXMDSoASAFQAw%3D%3D",
+  mapUrl: "https://www.google.com/maps/@22.4135728,70.0564298,3a,75y,159.53h,90t/data=!3m7!1e1!3m5!1sJ0Rlm68EpTEketLhtU4CVg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DJ0Rlm68EpTEketLhtU4CVg%26yaw%3D159.53156!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDcwNS4wIKXMDSoASAFQAw%3D%3D",
   latitude: "22.4135728",
   longitude: "70.0564298",
   rating: "",
@@ -19,39 +19,38 @@ export const businessData = {
 };
 
 export const aiContent = {
-  tagline: "Jamnagar's Local Expert",
-  heroDescription: "Experience the authentic charm of Jamnagar, Gujarat with our unique services. From exploring the local culture to enjoying the scenic views, we've got you covered. Our team is dedicated to providing you with an unforgettable experience in this beautiful city.",
-  aboutTitle: "Discovering Jamnagar",
-  aboutText: "Located in the heart of null, our business is surrounded by the vibrant culture and stunning landscapes of Jamnagar, Gujarat. Our team is passionate about sharing the beauty of this city with you, and we're committed to providing exceptional services that showcase the best of Jamnagar. With our expertise and knowledge, you'll get to experience the real essence of this incredible city.",
+  tagline: "Discover Jamnagar's Hidden Gems",
+  heroDescription: "Located in the heart of Gujarat, Jamnagar is a treasure trove of rich history and culture. Our local business is dedicated to showcasing the unique charm of this vibrant city. From ancient temples to bustling markets, we invite you to explore the authentic spirit of Jamnagar.",
+  aboutTitle: "Uncovering the Essence of Jamnagar",
+  aboutText: "Nestled in the bustling streets of null, our business is passionately committed to sharing the untold stories of Jamnagar's past and present. With a deep understanding of the local landscape, we strive to create immersive experiences that highlight the city's eclectic mix of traditions and innovations. As we delve into the heart of null, we uncover the hidden gems that make Jamnagar a truly special place.",
   services: [
-    { icon: "🏞️", title: "Jamnagar City Tour", description: "Explore the historic landmarks and cultural attractions of Jamnagar with our guided tour, priced at ₹1975 per person" },
-    { icon: "🚣", title: "Marine National Park Visit", description: "Discover the incredible marine life of Jamnagar with our guided visit to the Marine National Park, priced at ₹755 per person" },
-    { icon: "🏞️", title: "Khijadiya Bird Sanctuary Tour", description: "Spot exotic bird species and enjoy the serene surroundings of the Khijadiya Bird Sanctuary with our guided tour, priced at ₹1421 per person" },
-    { icon: "🚗", title: "Jamnagar Heritage Walk", description: "Take a stroll through the historic streets of Jamnagar and explore its rich cultural heritage with our guided walk, priced at ₹923 per person" },
-    { icon: "📸", title: "Photography Tour", description: "Capture the beauty of Jamnagar with our photography tour, priced at ₹4231 per person, and take home unforgettable memories" },
-    { icon: "🌴", title: "Beachside Relaxation", description: "Unwind and relax on the beautiful beaches of Jamnagar with our beachside relaxation package, priced at ₹2751 per person" }
+    { icon: "🏯", title: "Gujarati Heritage Tours", description: "Explore the majestic temples and historic landmarks of Jamnagar with our expert guides, priced at ₹945 per person" },
+    { icon: "🍴", title: "Street Food Adventures", description: "Savor the authentic flavors of Jamnagar's street food scene, with our curated tours starting at ₹540" },
+    { icon: "🎨", title: "Local Artisan Workshops", description: "Discover the traditional craftsmanship of Jamnagar's artisans, with hands-on workshops priced at ₹1420" },
+    { icon: "📸", title: "Photography Expeditions", description: "Capture the vibrant colors and textures of Jamnagar with our guided photography tours, costing ₹2250" },
+    { icon: "🚴", title: "Cycling Tours of Jamnagar", description: "Experience the city's scenic landscapes and bustling streets on two wheels, with our guided cycling tours priced at ₹1980" },
+    { icon: "👥", title: "Community Engagement Programs", description: "Join our initiatives to support local communities and make a positive impact in Jamnagar, with donations starting at ₹3625" }
   ],
   whyChooseUs: [
-    { icon: "🌟", title: "Local Expertise", description: "Our team has extensive knowledge of Jamnagar, Gujarat, and we're dedicated to providing you with an authentic experience" },
-    { icon: "📚", title: "Personalized Service", description: "We offer tailored services to meet your specific needs and ensure that you have an unforgettable experience in Jamnagar" },
-    { icon: "📸", title: "Unique Experiences", description: "From city tours to photography sessions, we offer a wide range of unique experiences that showcase the best of Jamnagar" },
-    { icon: "👥", title: "Community Involvement", description: "We're committed to supporting the local community and promoting sustainable tourism practices in Jamnagar" }
+    { icon: "💡", title: "Local Expertise", description: "Our team is comprised of Jamnagar natives who possess an intimate knowledge of the city's hidden gems and secret spots" },
+    { icon: "🌟", title: "Personalized Experiences", description: "We tailor our services to cater to the unique preferences and interests of each individual, ensuring an unforgettable experience in Jamnagar" },
+    { icon: "📚", title: "Cultural Insights", description: "Our guides provide in-depth information about Jamnagar's history, customs, and traditions, allowing you to truly immerse yourself in the local culture" }
   ],
   testimonials: [
-    { name: "Ishan Mehta", role: "Traveler", text: "I had an incredible experience with the Jamnagar City Tour, and the guides were extremely knowledgeable and friendly. The ₹1975 price tag was well worth it for the memories I made.", rating: 5 },
-    { name: "Ishaan Shah", role: "Photographer", text: "The Photography Tour was a dream come true, and the ₹4231 price was a steal for the amazing shots I got. The guides were extremely helpful and knew all the best spots.", rating: 5 },
-    { name: "Ishani Desai", role: "Foodie", text: "I loved the Jamnagar Heritage Walk, and the ₹923 price was very reasonable for the experience. The guides were very knowledgeable and shared some amazing stories about the city's history.", rating: 5 }
+    { name: "Ishan Mehta", role: "Traveller", text: "I had an incredible time exploring Jamnagar's street food scene with their guided tour. The prices were very reasonable, starting at ₹540, and the experience was truly unforgettable. I would highly recommend their services to anyone looking to discover the authentic spirit of Jamnagar.", rating: 5 },
+    { name: "Ira Desai", role: "Local Resident", text: "I was amazed by the level of expertise and passion displayed by their team during the Gujarati Heritage Tours. The cost of ₹945 per person was well worth it, considering the wealth of knowledge and insights shared by the guides. I would definitely recommend their services to anyone looking to learn more about Jamnagar's rich history.", rating: 5 },
+    { name: "Ishita Patel", role: "Foodie", text: "Their photography expeditions were a dream come true for me. The guides were knowledgeable and helpful, and the cost of ₹2250 was very reasonable considering the quality of the experience. I would highly recommend their services to anyone looking to capture the beauty of Jamnagar through the lens of a camera.", rating: 5 }
   ],
-  faq: { items: [{ question: "What is the best time to visit Jamnagar?", answer: "The best time to visit Jamnagar is from October to February, when the weather is pleasant and ideal for sightseeing." },
-    { question: "How do I get to Jamnagar?", answer: "Jamnagar is well-connected by air, rail, and road. You can take a flight to Jamnagar Airport or a train to Jamnagar Railway Station, and then hire a taxi or take a bus to get to your destination." },
-    { question: "What are the must-visit attractions in Jamnagar?", answer: "Some of the must-visit attractions in Jamnagar include the Lakhota Palace, the Bala Hanuman Temple, and the Marine National Park." },
-    { question: "Can I customize my tour package?", answer: "Yes, we offer customized tour packages to suit your specific needs and preferences. Please contact us to discuss your requirements and we'll be happy to tailor a package for you." },
-    { question: "What is the cancellation policy?", answer: "Our cancellation policy varies depending on the service and the notice period. Please contact us for more information and to discuss your specific requirements." },
-    { question: "How do I make a payment?", answer: "We accept various payment methods, including credit cards, debit cards, and online banking. Please contact us to discuss your payment options and to make a booking." }] },
-  ctaTitle: "Explore Jamnagar",
-  ctaDescription: "Discover the beauty and charm of Jamnagar, Gujarat with our unique services and expert guides. Book your tour package today and get ready for an unforgettable experience!",
-  ctaButtonText: "Book Now",
-  metaDescription: "Explore Jamnagar, Gujarat with our unique services and expert guides. Book your tour package today!",
+  faq: { items: [{ question: "What is the best time to visit Jamnagar?", answer: "The best time to visit Jamnagar is during the winter months, from October to February, when the weather is pleasant and cool. Our team can provide more information and help plan your trip accordingly." },
+    { question: "How do I get to Jamnagar?", answer: "Jamnagar is well-connected by air, rail, and road. The nearest airport is the Jamnagar Airport, and the city is also accessible by train and bus from major cities in India. Our team can assist with travel arrangements and provide more information on getting to Jamnagar." },
+    { question: "What are the must-visit places in Jamnagar?", answer: "Jamnagar is home to a number of historic landmarks, temples, and cultural attractions. Some of the must-visit places include the Lakhota Lake, Bala Hanuman Temple, and the Jamnagar Museum. Our team can provide more information and help plan your itinerary." },
+    { question: "What is the cost of the services offered by Jamnagar, Gujarat?", answer: "The cost of our services varies depending on the specific tour or program. Our prices range from ₹540 for our street food adventures to ₹3625 for our community engagement programs. We also offer customized packages and discounts for groups and long-term bookings." },
+    { question: "How do I book a tour or service with Jamnagar, Gujarat?", answer: "You can book a tour or service with us by visiting our website or contacting our team directly. We accept payments in ₹ (INR) and offer a secure and easy booking process." },
+    { question: "What is the cancellation policy for Jamnagar, Gujarat?", answer: "Our cancellation policy varies depending on the specific tour or service. We provide a full refund for cancellations made at least 24 hours in advance, and a partial refund for cancellations made within 24 hours of the scheduled departure time. Our team can provide more information and help with any cancellation requests." }] },
+  ctaTitle: "Experience the Authentic Spirit of Jamnagar",
+  ctaDescription: "Join us on a journey of discovery and exploration in Jamnagar. Our team is dedicated to providing unique and unforgettable experiences that showcase the best of this vibrant city.",
+  ctaButtonText: "Explore Jamnagar",
+  metaDescription: "Discover the hidden gems of Jamnagar with our guided tours and experiences",
 };
 
 export const siteConfig = {
